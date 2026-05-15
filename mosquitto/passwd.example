@@ -1,0 +1,5 @@
+# Example: create password file with:
+#   sudo mosquitto_passwd -c /etc/mosquitto/passwd medical_gateway
+# Then set the same password in raspberry_pi/config.yaml
+
+medical_gateway:$7$101$...
